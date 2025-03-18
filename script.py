@@ -20,7 +20,6 @@ from settings import (
 )
 
 
-# Настройка логирования
 file_handler = logging.FileHandler('wb_downloader.log')
 file_handler.setLevel(logging.CRITICAL)
 console_handler = logging.StreamHandler()
